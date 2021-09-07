@@ -8,7 +8,18 @@ body {
   height: 1000px;
 }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
   font-weight: bold;
 }
 
@@ -24,7 +35,7 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
   transition: 0.5s;
 }
 nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
-  color: #FFDC35;
+  color: #ffdc35;
 }
 
 header.jumbotron {
@@ -35,13 +46,13 @@ header.jumbotron {
   margin-bottom: 0px;
 }
 header.jumbotron .container {
-  color: #FFDC35;
+  color: #ffdc35;
   padding: 250px 0px;
   text-shadow: 0.5px 0.3px rgba(0, 0, 0, 0.7);
 }
 header.jumbotron hr {
   max-width: 50px;
-  border: 2px solid #3C3C3C;
+  border: 2px solid #3c3c3c;
 }
 header.jumbotron button {
   color: rgba(60, 60, 60, 0.7);
@@ -50,10 +61,10 @@ header.jumbotron button {
   cursor: pointer;
 }
 header.jumbotron button:hover {
-  background-color: #FFDC35;
+  background-color: #ffdc35;
   font-size: 16px;
   font-weight: 400;
-  color: #3C3C3C;
+  color: #3c3c3c;
 }
 
 section {
@@ -61,7 +72,7 @@ section {
 }
 
 section#section_ask {
-  background-color: #ACD6FF;
+  background-color: #acd6ff;
 }
 section#section_ask .col-sm-5.img {
   background-image: url(https://static7.depositphotos.com/1269378/766/v/600/depositphotos_7662167-stock-illustration-surfing.jpg);
@@ -77,6 +88,7 @@ section#section_ask h2 {
 
 section#section_tips {
   background-color: grey;
+  color: white;
 }
 section#section_tips hr {
   width: 210px;
@@ -100,7 +112,7 @@ section#section_tips .img_wrap {
 
 section#section_food {
   background-color: #f5f5dc;
-  color: #3C3C3C;
+  color: #3c3c3c;
   padding: 0px;
 }
 section#section_food h2 {
@@ -190,7 +202,7 @@ section#section_food .steam span:nth-child(5) {
 }
 
 section#section_location {
-  background-color: #FFDC35;
+  background-color: #ffdc35;
   color: white;
   padding-bottom: 0px;
   margin: 0px;
@@ -274,7 +286,7 @@ footer.jumbotron button {
   transition: 0.5s;
 }
 footer.jumbotron button:hover {
-  background-color: #FFDC35;
+  background-color: #ffdc35;
   color: white;
   font-weight: 400;
   font-size: 18px;
