@@ -1,0 +1,282 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+  position: relative;
+}
+
+body {
+  height: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: bold;
+}
+
+nav.navbar {
+  transition: 0.5s;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
+  background-color: transparent;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
+  color: white;
+  transition: 0.5s;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
+  color: #FFDC35;
+}
+
+header.jumbotron {
+  text-align: center;
+  background-image: url(https://i.imgur.com/eR2egJB.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+header.jumbotron .container {
+  color: #FFDC35;
+  padding: 250px 0px;
+  text-shadow: 0.5px 0.3px rgba(0, 0, 0, 0.7);
+}
+header.jumbotron hr {
+  max-width: 50px;
+  border: 2px solid #3C3C3C;
+}
+header.jumbotron button {
+  color: rgba(60, 60, 60, 0.7);
+  font-weight: normal;
+  transition: 0.5s;
+  cursor: pointer;
+}
+header.jumbotron button:hover {
+  background-color: #FFDC35;
+  font-size: 16px;
+  font-weight: 400;
+  color: #3C3C3C;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section#section_ask {
+  background-color: #ACD6FF;
+}
+section#section_ask .col-sm-5.img {
+  background-image: url(https://static7.depositphotos.com/1269378/766/v/600/depositphotos_7662167-stock-illustration-surfing.jpg);
+  background-size: 100% 90%;
+  background-position: center center;
+  height: 350px;
+  mix-blend-mode: multiply;
+}
+section#section_ask h2 {
+  margin-top: 130px;
+  padding: 0px 20px;
+}
+
+section#section_tips {
+  background-color: grey;
+}
+section#section_tips hr {
+  width: 210px;
+  text-align: left;
+  margin-top: 0;
+  margin-left: 0;
+  border: 2px solid;
+}
+section#section_tips img {
+  margin-top: auto;
+  margin-left: auto;
+  width: 140%;
+  height: 100%;
+  object-fit: cover;
+  background-color: transparent;
+}
+section#section_tips .img_wrap {
+  height: 300px;
+  overflow: hidden;
+}
+
+section#section_food {
+  background-color: #f5f5dc;
+  color: #3C3C3C;
+  padding: 0px;
+}
+section#section_food h2 {
+  top: -20px;
+  margin-bottom: 40px;
+}
+section#section_food .col-sm-5.pic {
+  background-image: url(https://scontent.ftpe7-3.fna.fbcdn.net/v/t1.6435-9/43522921_1863498090435157_3525760823907581952_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=e3f864&_nc_ohc=n9rGai90u3UAX9cGZ1O&_nc_ht=scontent.ftpe7-3.fna&oh=565620a0496ccb844d43b78a99850e65&oe=615D3342);
+  background-size: cover;
+  height: 400px;
+}
+section#section_food .col-sm-7 {
+  text-align: center;
+}
+section#section_food .col-sm-7 i {
+  font-size: 40px;
+}
+section#section_food .col-sm-12.feature {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+section#section_food p {
+  font-size: 16px;
+  letter-spacing: normal;
+  line-height: 20px;
+}
+section#section_food .steam {
+  width: 300px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+section#section_food .steam span {
+  width: 10px;
+  min-width: 10px;
+  background-color: white;
+  filter: opacity(0);
+  animation: watersteam 1.5s linear infinite;
+}
+section#section_food .steam span:nth-child(2) {
+  animation-delay: 0.5s;
+}
+section#section_food .steam span:nth-child(2) {
+  animation-delay: 0.5s;
+}
+section#section_food .steam span:nth-child(3) {
+  animation-delay: 0.3s;
+}
+section#section_food .steam span:nth-child(4) {
+  animation-delay: 0.4s;
+}
+section#section_food .steam span:nth-child(5) {
+  animation-delay: 0s;
+}
+@keyframes watersteam {
+  0% {
+    transform: translateY(0px) rotate(0deg);
+    filter: opacity(1) blur(5px);
+  }
+  10% {
+    transform: translateY(-30px) rotate(30deg);
+    filter: opacity(0.8) blur(6px);
+  }
+  15% {
+    transform: translateY(-50px) rotate(-30deg);
+    filter: opacity(0.7) blur(6px);
+  }
+  20% {
+    transform: translateY(-70px) rotate(20deg);
+    filter: opacity(0.6) blur(6px);
+  }
+  50% {
+    transform: translateY(-120px) rotate(0deg);
+    filter: opacity(0.6) blur(6px);
+  }
+  75% {
+    transform: translateY(-150px) rotate(-20deg);
+    filter: opacity(0.4) blur(7px);
+  }
+  100% {
+    transform: translateY(-200px) rotate(0deg);
+    filter: opacity(0) blur(8px);
+  }
+}
+
+section#section_location {
+  background-color: #FFDC35;
+  color: white;
+  padding-bottom: 0px;
+  margin: 0px;
+}
+section#section_location hr {
+  width: 354px;
+  text-align: left;
+  margin-top: 0;
+  margin-left: 0;
+  border: 2px solid;
+}
+section#section_location .col-sm-4 {
+  height: 400px;
+  cursor: pointer;
+  text-align: center;
+}
+section#section_location .col-sm-4 h3 {
+  top: 200px;
+  opacity: 0.85;
+}
+section#section_location .col-sm-4:hover:before {
+  filter: brightness(0.5);
+  background-size: 150% auto;
+}
+section#section_location .col-sm-4:hover h3 {
+  opacity: 1;
+}
+section#section_location .col-sm-4:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition-duration: 0.5s;
+  background-position: center center;
+}
+section#section_location .pic1:before {
+  background-image: url(https://lh5.googleusercontent.com/p/AF1QipOz47vu1IgroS-iW6qq7jWYbWdaA01nbvKkJjmJ=w408-h408-k-no);
+  background-size: 130% auto;
+}
+section#section_location .pic2:before {
+  background-image: url(https://scontent.ftpe7-3.fna.fbcdn.net/v/t1.6435-9/117837506_3537956276223797_3565388906916584250_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=174925&_nc_ohc=rNEW1j0W1GUAX8j37Gi&_nc_ht=scontent.ftpe7-3.fna&oh=27eb94640aa64d715a30bd029064136b&oe=615C3043);
+  background-size: 130% auto;
+}
+section#section_location .pic3:before {
+  background-image: url(https://wegotoexperiencelife.com/wp-content/uploads/2020/06/image1-2.jpg);
+  background-size: 140% auto;
+}
+
+footer.jumbotron {
+  text-align: center;
+  height: 300px;
+  background-image: url(https://www.lookit.tw/upload/IY/G5D/d7f27e4d10b7431e9cf7932563ff8ab6.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+footer.jumbotron input {
+  background-color: rgba(245, 245, 220, 0.5);
+  text-align: center;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #f5f5dc;
+  color: white;
+}
+footer.jumbotron input::placeholder {
+  color: #f5f5dc;
+}
+footer.jumbotron hr {
+  max-width: 50px;
+  border: 2px solid rgba(255, 220, 53, 0.5);
+}
+footer.jumbotron button {
+  color: rgba(60, 60, 60, 0.5);
+  padding: 5px 28px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+footer.jumbotron button:hover {
+  background-color: #FFDC35;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  border: 0px;
+}
